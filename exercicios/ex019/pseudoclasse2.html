@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            font:normal 1em Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(71, 20, 120);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+           text-decoration: underline;
+           color: white;
+           background-color: brown;
+        }
+
+        a::after
+        {
+            content: '[Link]';
+            font-weight: normal;
+            color: chocolate;
+        }
+        a:visited 
+        {
+            color: darkblue;
+        }
+        a:active {
+            color: black;
+            background-color: blue;
+
+        }
+
+        .especial::before
+        {
+          content: '⟾';
+        
+        }
+
+        .especial {
+
+            background-color: brown;
+            color: aliceblue;
+            content: none;
+        }
+
+        .especial::after
+        {
+            content: none;
+        }
+
+
+
+
+      
+    </style>
+</head>
+<body>
+    <h1>Teste de pseudo-elementos</h1>
+    <ul>
+      <li><a href="https://youtu.be/Ug0N4qGRp_w?si=TcbD9ShFULYGa5iB">Youtube tlg</a></li>
+      <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf">Github do Guanabara</a></li>
+      <li><a href="https://youtu.be/JUJUwZbl304?si=KPdyQerzzwurtKdN" class="especial">Video totalmente aleatório</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(180, 180, 180);
+    border-color: rgb(31, 134, 31);
+    border-width: 10px;
+    border-style: solid;
+    padding: 8px;
+    margin-left: 10px;
+    outline-width: 4px;
+    outline-color: rgb(0, 0, 0);
+    outline-style: dashed;
+}
+
+a {
+   border: 6px solid red;
+   padding: 10px 10px 10px 10px; 
+   margin: 10px 10px 10px 10px;
+}

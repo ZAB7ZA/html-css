@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding:7px 7px;
+            margin: 10px;     
+        }
+
+        nav {
+            background-color: dimgrey;
+            padding: 4px;
+           
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: red;
+            padding-left: 17%;
+
+        }
+
+        #hover:hover {
+            text-decoration: underline;
+            color: red;
+
+        }
+
+
+
+        main {
+            background-color: white;
+            padding: 7px 7px;
+            margin: 10px;
+            
+        }
+
+        section {
+            background-color: rgb(193, 193, 193);
+            padding: 6px;
+            box-shadow:4px 7px 12px 1px rgba(14, 14, 14, 0.467);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin:0px;
+            padding: 8px;
+        }
+
+        main > aside {
+
+            width: 300px;
+            height: 300px;
+            background-color: rgb(99, 99, 151);
+            padding: 7px;
+            margin-top: 7px;
+        }
+        #exemplo {
+            background-color: rgb(123, 123, 123);
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Porra games</h1>
+        <nav id="hover">
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <h1>No se n</h1>
+        <section>
+            <article><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, exercitationem. Dolorem vero, assumenda ea pariatur autem quibusdam nostrum illo libero ab eaque et dignissimos nihil ex nemo, facilis ad distinctio.</p></article>
+            <article id="exemplo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta incidunt amet repudiandae repellat rem illum ducimus. Quis magni officia atque dolore laboriosam autem sed, eligendi quae voluptatum, voluptatibus mollitia quos!</p>
+                <aside> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, esse! Eaque asperiores accusantium quia ipsa voluptatibus libero necessitatibus! Distinctio, explicabo hic minus odit animi quo excepturi iusto ducimus impedit natus?</p> </aside>
+            </article>   
+        </section>
+        <aside><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aperiam modi facere rem esse molestias, libero tempora, recusandae ipsam dolores maxime nulla repudiandae aut odio labore id consectetur ex iusto?</p>
+
+        </aside>
+    </main>
+    <footer>
+        Desenvolvido por @Teupaidecalcinha
+    </footer>
+    
+</body>
+</html>
